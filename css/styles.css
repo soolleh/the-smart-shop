@@ -1,0 +1,107 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+  background: url('../images/paisley.png');/*center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  padding: 0px;
+  margin:0px;
+}
+@font-face {
+	font-family:'Aarcover';
+	src:url('../fonts/AarcoverRegular.ttf');
+}
+.container-fluid{
+	padding: 0px;
+}
+#header-nav{
+	background-color: black;
+	margin:0px;
+	border:none;
+	padding: 0px;
+}
+
+.logo{
+	background-color: black;
+	padding-right: 50px;
+	padding-left: 50px;
+	float: left;
+}
+.brand-name{
+	font-family: "Aarcover";
+	color:gold;
+	font-size: 3.5em;
+	display: table-cell;
+	vertical-align: middle;
+	float: left;
+	padding-top: 30px;
+	padding-left: 20px;
+	
+}
+.tag-line{
+	position: relative;
+	font-family: verdana;
+	font-size: 16px;
+	padding-left: 420px;
+	color: gold;
+	top: -10px;
+}
+a{
+	text-decoration: none;
+	color: gold;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+/**********************************************Large devices only **************************************************/
+@media (min-width: 1200px) {
+
+
+}
+
+
+
+/**********************************************Medium devices only**************************************************/
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+}
+
+
+
+/**********************************************Small devices only***************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+
+/**********************************************Extra small devices only ********************************************/
+@media (max-width: 767px) {
+
+
+
+}
+
+/**********************************************Very Extra small devices only ***************************************/
+@media (max-width: 520px) {
+
+
+}
+
+
+
+
+/**********************************************Super Duper Extra Smal***********************************************/
+@media (max-width: 380px) {
+
+
+
+
+}
